@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شرکت نوآوران ایرانیان | راهکارهای دیجیتال</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <span class="logo-icon">N</span>
+                    <span class="logo-text">نوآوران ایرانیان</span>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">خانه</a></li>
+                    <li><a href="#about" class="nav-link">درباره ما</a></li>
+                    <li><a href="#services" class="nav-link">خدمات</a></li>
+                    <li><a href="#pricing" class="nav-link">پکیج‌ها</a></li>
+                    <li><a href="#shop" class="nav-link">فروشگاه</a></li>
+                    <li><a href="#portfolio" class="nav-link">نمونه کار</a></li>
+                    <li><a href="#contact" class="nav-link">تماس با ما</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="cart-btn" id="openCart">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                        </svg>
+                        <span class="cart-count" id="cartCount">۰</span>
+                    </button>
+                    <button class="btn btn-outline btn-sm" id="openLogin">ورود</button>
+                    <button class="btn btn-primary btn-sm" id="openRegister">ثبت نام</button>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="منو">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">بهترین راهکارها برای کسب‌وکار شما</span>
+                <h1 class="hero-title">ما تجربه‌ای <span class="text-gradient">منحصر به فرد</span> از دیجیتال می‌سازیم</h1>
+                <p class="hero-desc">تیم حرفه‌ای نوآوران با سال‌ها تجربه در طراحی و توسعه وب، آماده ارائه بهترین راهکارهای دیجیتال برای رشد کسب‌وکار شماست.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">شروع همکاری</a>
+                    <a href="#portfolio" class="btn btn-outline">نمونه کارها</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="150">0</span>
+                        <span class="stat-label">پروژه موفق</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">مشتری راضی</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="8">0</span>
+                        <span class="stat-label">سال تجربه</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-placeholder">
+                            <svg viewBox="0 0 200 200" fill="none">
+                                <rect width="200" height="200" rx="20" fill="#e8f4f8"/>
+                                <circle cx="100" cy="70" r="30" fill="#3b82f6"/>
+                                <path d="M50 170 Q100 120 150 170" fill="#3b82f6" opacity="0.5"/>
+                                <rect x="40" y="130" width="120" height="40" rx="10" fill="#3b82f6" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="about-experience">
+                            <span class="exp-number">8+</span>
+                            <span class="exp-text">سال تجربه</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-badge">درباره ما</span>
+                    <h2 class="section-title">ما راه‌حل‌های خلاقانه برای چالش‌های دیجیتال شما ارائه می‌دهیم</h2>
+                    <p class="about-desc">تیم نوآوران با ترکیب تجربه، خلاقیت و فناوری‌های نوین، پروژه‌های شما را از ایده تا اجرا همراهی می‌کند. ما باور داریم هر کسب‌وکاری شایسته حضوری قدرتمند در دنیای دیجیتال است.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>طراحی مدرن</h4>
+                                <p>طراحی ریسپانسیو و مدرن</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>کدنویسی بهینه</h4>
+                                <p>عملکرد بالا و سرعت بارگذاری</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>پشتیبانی ۲۴/۷</h4>
+                                <p>همیشه در کنار شما هستیم</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">خدمات ما</span>
+                <h2 class="section-title">راهکارهای جامع دیجیتال</h2>
+                <p class="section-desc">مجموعه‌ای کامل از خدمات برای پاسخگویی به تمام نیازهای دیجیتال کسب‌وکار شما</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>طراحی وب سایت</h3>
+                    <p>طراحی وب سایت‌های حرفه‌ای و مدرن با تمرکز بر تجربه کاربری و زیبایی بصری</p>
+                    <a href="#contact" class="service-link">بیشتر بدانید →</a>
+                </div>
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-badge">محبوب‌ترین</div>
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                            <line x1="12" y1="18" x2="12.01" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3>اپلیکیشن موبایل</h3>
+                    <p>توسعه اپلیکیشن‌های موبایل برای iOS و Android با بالاترین کیفیت و عملکرد</p>
+                    <a href="#contact" class="service-link">بیشتر بدانید →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>سئو و بازاریابی دیجیتال</h3>
+                    <p>بهینه‌سازی موتورهای جستجو و بازاریابی دیجیتال برای افزایش ترافیک و فروش</p>
+                    <a href="#contact" class="service-link">بیشتر بدانید →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>طراحی گرافیک</h3>
+                    <p>طراحی هویت بصری، لوگو، بنر و تمام نیازهای گرافیکی کسب‌وکار شما</p>
+                    <a href="#contact" class="service-link">بیشتر بدانید →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3>فروشگاه آنلاین</h3>
+                    <p>راه‌اندازی فروشگاه‌های اینترنتی با امکانات پرداخت آنلاین و مدیریت محصولات</p>
+                    <a href="#contact" class="service-link">بیشتر بدانید →</a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>مشاوره دیجیتال</h3>
+                    <p>مشاوره تخصصی برای حضور موفق در دنیای دیجیتال و رشد پایدار کسب‌وکار</p>
+                    <a href="#contact" class="service-link">بیشتر بدانید →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">پکیج‌ها و قیمت‌ها</span>
+                <h2 class="section-title">بهترین پکیج را انتخاب کنید</h2>
+                <p class="section-desc">پکیج‌های متنوع برای هر نوع کسب‌وکار</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Basic -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>پایه</h3>
+                        <p>مناسب کسب‌وکارهای کوچک</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-amount">۵,۰۰۰,۰۰۰</span>
+                        <span class="price-currency">تومان</span>
+                        <span class="price-period">/ یکبار پرداخت</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            طراحی ریسپانسیو
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            تا ۵ صفحه
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            فرم تماس
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            بهینه‌سازی سئو پایه
+                        </li>
+                        <li class="excluded">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                            پنل مدیریت محتوا
+                        </li>
+                        <li class="excluded">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                            فروشگاه آنلاین
+                        </li>
+                        <li class="excluded">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                            پشتیبانی ۶ ماهه
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline btn-full add-to-cart" data-product="basic" data-price="5000000" data-name="پکیج پایه">انتخاب پکیج</button>
+                </div>
+
+                <!-- Pro -->
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">محبوب‌ترین</div>
+                    <div class="pricing-header">
+                        <h3>حرفه‌ای</h3>
+                        <p>بهترین انتخاب برای رشد</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-amount">۱۲,۰۰۰,۰۰۰</span>
+                        <span class="price-currency">تومان</span>
+                        <span class="price-period">/ یکبار پرداخت</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            طراحی ریسپانسیو
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            تا ۱۵ صفحه
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            فرم تماس + فرم‌های سفارشی
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            سئو حرفه‌ای
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            پنل مدیریت محتوا
+                        </li>
+                        <li class="excluded">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                            فروشگاه آنلاین
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            پشتیبانی ۶ ماهه
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary btn-full add-to-cart" data-product="pro" data-price="12000000" data-name="پکیج حرفه‌ای">انتخاب پکیج</button>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>سازمانی</h3>
+                        <p>برای کسب‌وکارهای بزرگ</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-amount">۲۵,۰۰۰,۰۰۰</span>
+                        <span class="price-currency">تومان</span>
+                        <span class="price-period">/ یکبار پرداخت</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            طراحی ریسپانسیو + اختصاصی
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            صفحات نامحدود
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            تمام فرم‌ها و امکانات
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            سئو پیشرفته + تبلیغات
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            پنل مدیریت پیشرفته
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            فروشگاه آنلاین کامل
+                        </li>
+                        <li class="included">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                            پشتیبانی ۱۲ ماهه
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline btn-full add-to-cart" data-product="enterprise" data-price="25000000" data-name="پکیج سازمانی">انتخاب پکیج</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop / Templates -->
+    <section class="shop section" id="shop">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">فروشگاه قالب</span>
+                <h2 class="section-title">قالب‌های آماده و حرفه‌ای</h2>
+                <p class="section-desc">قالب‌های HTML و WordPress با طراحی مدرن</p>
+            </div>
+            <div class="shop-grid">
+                <!-- Template 1 -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="product-badge">جدید</span>
+                        <div class="product-preview">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">قالب شرکتی</span>
+                        <h3>قالب شرکت مدرن</h3>
+                        <p>قالب HTML5 ریسپانسیو مناسب شرکت‌ها</p>
+                        <div class="product-footer">
+                            <span class="product-price">۸۹۰,۰۰۰ تومان</span>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="template-1" data-price="890000" data-name="قالب شرکت مدرن">افزودن به سبد</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 2 -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span class="product-badge hot">پرفروش</span>
+                        <div class="product-preview">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                                <line x1="3" y1="6" x2="21" y2="6"/>
+                                <path d="M16 10a4 4 0 0 1-8 0"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">قالب فروشگاهی</span>
+                        <h3>قالب فروشگاه مدرن</h3>
+                        <p>قالب فروشگاهی با امکانات کامل</p>
+                        <div class="product-footer">
+                            <span class="product-price">۱,۲۹۰,۰۰۰ تومان</span>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="template-2" data-price="1290000" data-name="قالب فروشگاه مدرن">افزودن به سبد</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 3 -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="product-preview">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">قالب پورتفولیو</span>
+                        <h3>قالب پورتفولیو</h3>
+                        <p>مناسب طراحان و توسعه‌دهندگان</p>
+                        <div class="product-footer">
+                            <span class="product-price">۶۹۰,۰۰۰ تومان</span>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="template-3" data-price="690000" data-name="قالب پورتفولیو">افزودن به سبد</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 4 -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="product-preview">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">قالب لندینگ</span>
+                        <h3>قالب لندینگ پیج</h3>
+                        <p>صفحه فرود حرفه‌ای برای تبلیغات</p>
+                        <div class="product-footer">
+                            <span class="product-price">۴۹۰,۰۰۰ تومان</span>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="template-4" data-price="490000" data-name="قالب لندینگ پیج">افزودن به سبد</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 5 -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <span class="product-badge">جدید</span>
+                        <div class="product-preview">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">قالب وبلاگ</span>
+                        <h3>قالب وبلاگ شخصی</h3>
+                        <p>قالب مینیمال و زیبا برای وبلاگ</p>
+                        <div class="product-footer">
+                            <span class="product-price">۳۹۰,۰۰۰ تومان</span>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="template-5" data-price="390000" data-name="قالب وبلاگ شخصی">افزودن به سبد</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template 6 -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
+                        <div class="product-preview">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                                <line x1="12" y1="18" x2="12.01" y2="18"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">قالب موبایل</span>
+                        <h3>قالب اپلیکیشن</h3>
+                        <p>UI Kit برای طراحی اپلیکیشن</p>
+                        <div class="product-footer">
+                            <span class="product-price">۷۹۰,۰۰۰ تومان</span>
+                            <button class="btn btn-primary btn-sm add-to-cart" data-product="template-6" data-price="790000" data-name="قالب اپلیکیشن">افزودن به سبد</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">نمونه کارها</span>
+                <h2 class="section-title">پروژه‌های موفق ما</h2>
+                <p class="section-desc">نگاهی به پروژه‌های اجرا شده توسط تیم نوآوران</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="web">طراحی وب</button>
+                <button class="filter-btn" data-filter="app">اپلیکیشن</button>
+                <button class="filter-btn" data-filter="branding">برندینگ</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>فروشگاه دیجی‌کالا</h4>
+                            <p>طراحی و توسعه وب</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>اپلیکیشن اسنپ</h4>
+                            <p>توسعه موبایل</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="portfolio-overlay">
+                            <h4> هویت بصری آریا</h4>
+                            <p>برندینگ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>سایت شرکت نور</h4>
+                            <p>طراحی و توسعه وب</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>اپلیکیشن روبیکلاس</h4>
+                            <p>توسعه موبایل</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>بسته‌بندی مدرن</h4>
+                            <p>برندینگ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team section" id="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">تیم ما</span>
+                <h2 class="section-title">افراد خلاق و حرفه‌ای</h2>
+                <p class="section-desc">تیمی متخصص که با عشق و تعهد کار می‌کنند</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span>A . S</span>
+                    </div>
+                    <h4>َArshiya sedighi</h4>
+                    <p class="team-role">مدیر پروژه</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="لینکدین">in</a>
+                        <a href="#" aria-label="توییتر">X</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span> M . K</span>
+                    </div>
+                    <h4>Milan kojks</h4>
+                    <p class="team-role">طراح UI/UX</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="لینکدین">in</a>
+                        <a href="#" aria-label="توییتر">X</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span>M . L</span>
+                    </div>
+                    <h4>marya loncew</h4>
+                    <p class="team-role">توسعه‌دهنده فرانت‌اند</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="لینکدین">in</a>
+                        <a href="#" aria-label="توییتر">X</a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <span>A . B</span>
+                    </div>
+                    <h4>Abilard bilich</h4>
+                    <p class="team-role">توسعه‌دهنده بک‌اند</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="لینکدین">in</a>
+                        <a href="#" aria-label="توییتر">X</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">تماس با ما</span>
+                <h2 class="section-title">بیایید با هم کار کنیم</h2>
+                <p class="section-desc">آماده شنیدن ایده‌های شما هستیم</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>آدرس</h4>
+                            <p>تهران , سعادت اباد</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>تلفن</h4>
+                            <p>09386238984</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>ایمیل</h4>
+                            <p>info@noavaran.ir</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder=" " required>
+                            <label for="name">نام شما</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder=" " required>
+                            <label for="email">ایمیل شما</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder=" " required>
+                        <label for="subject">موضوع</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">پیام شما</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">ارسال پیام</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal">
+            <button class="modal-close" id="closeLogin">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+                        <polyline points="10 17 15 12 10 7"/>
+                        <line x1="15" y1="12" x2="3" y2="12"/>
+                    </svg>
+                </div>
+                <h2>ورود به حساب</h2>
+                <p>خوش آمدید! لطفاً وارد حساب خود شوید</p>
+            </div>
+            <form class="modal-form" id="loginForm">
+                <div class="form-group">
+                    <input type="email" id="loginEmail" placeholder=" " required>
+                    <label for="loginEmail">ایمیل</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="loginPassword" placeholder=" " required>
+                    <label for="loginPassword">رمز عبور</label>
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox">
+                        <span>مرا به خاطر بسپار</span>
+                    </label>
+                    <a href="#" class="forgot-link">فراموشی رمز عبور</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">ورود</button>
+                <p class="modal-switch">حساب ندارید؟ <a href="#" id="switchToRegister">ثبت نام کنید</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal-overlay" id="registerModal">
+        <div class="modal">
+            <button class="modal-close" id="closeRegister">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="8.5" cy="7" r="4"/>
+                        <line x1="20" y1="8" x2="20" y2="14"/>
+                        <line x1="23" y1="11" x2="17" y2="11"/>
+                    </svg>
+                </div>
+                <h2>ساخت حساب جدید</h2>
+                <p>با ثبت نام از امکانات ویژه بهره‌مند شوید</p>
+            </div>
+            <form class="modal-form" id="registerForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="regFirstName" placeholder=" " required>
+                        <label for="regFirstName">نام</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="regLastName" placeholder=" " required>
+                        <label for="regLastName">نام خانوادگی</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="regEmail" placeholder=" " required>
+                    <label for="regEmail">ایمیل</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="regPhone" placeholder=" " required>
+                    <label for="regPhone">شماره موبایل</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="regPassword" placeholder=" " required>
+                    <label for="regPassword">رمز عبور</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="regConfirmPassword" placeholder=" " required>
+                    <label for="regConfirmPassword">تکرار رمز عبور</label>
+                </div>
+                <div class="password-strength" id="passwordStrength">
+                    <div class="strength-bar"><div class="strength-fill" id="strengthFill"></div></div>
+                    <span class="strength-text" id="strengthText">قدرت رمز عبور</span>
+                </div>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="regTerms" required>
+                    <span>شرایط و قوانین را مطالعه کرده و می‌پذیرم</span>
+                </label>
+                <button type="submit" class="btn btn-primary btn-full">ثبت نام</button>
+                <p class="modal-switch">قبلاً ثبت نام کرده‌اید؟ <a href="#" id="switchToLogin">ورود کنید</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div class="toast" id="toast">
+        <div class="toast-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+        </div>
+        <div class="toast-content">
+            <h4 id="toastTitle">موفق!</h4>
+            <p id="toastMessage">عملیات با موفقیت انجام شد</p>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal-overlay" id="checkoutModal">
+        <div class="modal modal-checkout">
+            <button class="modal-close" id="closeCheckout">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M9 11l3 3L22 4"/>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                    </svg>
+                </div>
+                <h2>تکمیل سفارش</h2>
+                <p>لطفاً اطلاعات خود را وارد کنید</p>
+            </div>
+
+            <!-- Steps -->
+            <div class="checkout-steps">
+                <div class="step active" data-step="1"><span>۱</span> اطلاعات</div>
+                <div class="step-line"></div>
+                <div class="step" data-step="2"><span>۲</span> تأیید</div>
+            </div>
+
+            <form class="checkout-form" id="checkoutForm">
+                <!-- Step 1: Info -->
+                <div class="checkout-step-content active" id="checkoutStep1">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="coName" placeholder=" " required>
+                            <label for="coName">نام و نام خانوادگی</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="coPhone" placeholder=" " required>
+                            <label for="coPhone">شماره تماس</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="coEmail" placeholder=" ">
+                        <label for="coEmail">ایمیل (اختیاری)</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="coCity" placeholder=" " required>
+                        <label for="coCity">شهر</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="coMessage" rows="3" placeholder=" "></textarea>
+                        <label for="coMessage">توضیحات سفارش</label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-full" id="checkoutNext">ادامه و مشاهده خلاصه</button>
+                </div>
+
+                <!-- Step 2: Summary -->
+                <div class="checkout-step-content" id="checkoutStep2">
+                    <div class="checkout-summary-box">
+                        <h4>خلاصه سفارش</h4>
+                        <div class="checkout-items" id="checkoutItems"></div>
+                        <div class="checkout-total-row">
+                            <span>جمع کل:</span>
+                            <span class="checkout-total" id="checkoutTotal">۰ تومان</span>
+                        </div>
+                        <div class="checkout-user-info" id="checkoutUserInfo"></div>
+                    </div>
+                    <div class="checkout-actions">
+                        <button type="button" class="btn btn-outline" id="checkoutBack">بازگشت</button>
+                        <button type="submit" class="btn btn-primary" id="checkoutSubmit">تأیید و ارسال سفارش</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal-overlay" id="cartModal">
+        <div class="modal modal-cart">
+            <button class="modal-close" id="closeCart">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                    </svg>
+                </div>
+                <h2>سبد خرید</h2>
+                <p>محصولات انتخابی شما</p>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <p class="cart-empty">سبد خرید شما خالی است</p>
+            </div>
+            <div class="cart-summary" id="cartSummary" style="display: none;">
+                <div class="cart-total">
+                    <span>جمع کل:</span>
+                    <span class="total-amount" id="totalAmount">۰ تومان</span>
+                </div>
+                <button class="btn btn-primary btn-full" id="checkoutBtn">تکمیل خرید</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">N</span>
+                        <span class="logo-text">نوآوران</span>
+                    </a>
+                    <p class="footer-desc">ما تیمی حرفه‌ای هستیم که با خلاقیت و تعهد، بهترین راهکارهای دیجیتال را برای رشد کسب‌وکار شما ارائه می‌دهیم.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>لینک‌های مفید</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#services">خدمات</a></li>
+                        <li><a href="#portfolio">نمونه کار</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>خدمات</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">طراحی وب</a></li>
+                        <li><a href="#services">اپلیکیشن موبایل</a></li>
+                        <li><a href="#services">سئو</a></li>
+                        <li><a href="#services">طراحی گرافیک</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ارتباط با ما</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="اینستاگرام" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="لینکدین" class="social-link">in</a>
+                        <a href="#" aria-label="توییتر" class="social-link">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© ۱۴۰۵ شرکت نوآوران. تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop" aria-label="بازگشت به بالا">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
